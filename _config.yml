@@ -1,6 +1,6 @@
 future:      true
 lsi:         false
-highlighter: true
+highlighter: pygments
 markdown:    kramdown
 permalink:   /:title.html
 
