@@ -1,0 +1,10 @@
+image: gbraad/docugen:latest
+
+pages:
+  script:
+  - jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
